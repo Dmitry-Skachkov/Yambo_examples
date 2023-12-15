@@ -162,7 +162,7 @@ This is yambo - MPI+HDF5_MPI_IO - Ver. 5.1.1 Revision 21528 Hash 0e32e3c52
 ```
 
 ## Compilation version 5.2
-Installation on Pittsburgh SuperComputer Cluster Bridges-2
+Installation on [Pittsburgh SuperComputer Cluster Bridges-2](https://www.psc.edu/)
 
 Download the source code from GitHub:
 > git clone https://github.com/yambo-code/yambo.git
