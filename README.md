@@ -4,7 +4,7 @@
     * [Automatic installation of version 5.0.4](#automatic-installation-of-version-504)
     * [Separate compilation of libraries](#separate-compilation-of-libraries)
     * [Compilation version 5.1.1](#compilation-version-511)
-    * [Compilation version 5.2] 
+    * [Compilation version 5.2](#compilation-version-52) 
 * [Example 1. Convert QE ground state calculation to Yambo format](#example-1)  
 * [Example 2. GW calculation](#example-2)  
     * [Run GW](#run-gw)
