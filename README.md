@@ -3,7 +3,8 @@
 * [Yambo installation](#yambo-installation-on-stokes-supercluster-of-ucf)    
     * [Automatic installation of version 5.0.4](#automatic-installation-of-version-504)
     * [Separate compilation of libraries](#separate-compilation-of-libraries)
-    * [Compilation version 5.1.1](#compilation-version-511)   
+    * [Compilation version 5.1.1](#compilation-version-511)
+    * [Compilation version 5.2] 
 * [Example 1. Convert QE ground state calculation to Yambo format](#example-1)  
 * [Example 2. GW calculation](#example-2)  
     * [Run GW](#run-gw)
@@ -159,6 +160,21 @@ The library modules will be in ~/hdf5-1.12.0/hdf5
 ```
 This is yambo - MPI+HDF5_MPI_IO - Ver. 5.1.1 Revision 21528 Hash 0e32e3c52
 ```
+
+## Compilation version 5.2
+Installation on Pittsburgh SuperComputer Cluster Bridges-2
+
+Download the source code from GitHub:
+> git clone https://github.com/yambo-code/yambo.git
+
+Load modules
+> module load mvapich2/2.3.5-gcc8.3.1
+
+Set up configure:
+> ./configure --enable-memory-profile --enable-dp FC=gfortran F77=gfortran CC=gcc
+
+Compile the code:
+> make all
 
 [Go to top](#yambo-usage)
 
