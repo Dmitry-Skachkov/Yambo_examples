@@ -398,7 +398,7 @@ SE_ROLEs= "q qp b"            # [PARALLEL Self-Energy] CPUs roles (q,qp,b)
 SE_Threads= 0                 # [OPENMP   Self-Energy] Number of threads for self-energy
 
 ```
-The detailed description of these parameters is [here](http://www.yambo-code.org/wiki/index.php?title=GW_parallel_strategies) By default *SE_Threads*, *DIP_Threads*, and *X_Threads* are set to zero and controlled by the OMP_NUM_THREADS environment variable.
+The detailed description of these parameters is [here]([http://www.yambo-code.org/wiki/index.php?title=GW_parallel_strategies](https://www.yambo-code.eu/wiki/index.php?title=GW_parallel_strategies)) By default *SE_Threads*, *DIP_Threads*, and *X_Threads* are set to zero and controlled by the OMP_NUM_THREADS environment variable.
 
 ```
 g      parallelism over G-vectors   
